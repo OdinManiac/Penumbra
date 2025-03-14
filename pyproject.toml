@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "penumbra"
+version = "0.1.0"
+description = "Penumbra project"
+authors = ["OdinManiac <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "penumbra", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.0"
+pydantic = "^2.6.0"
+loguru = "^0.7.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+black = "^24.1.0"
+isort = "^5.13.0"
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 
