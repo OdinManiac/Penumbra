@@ -44,6 +44,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.python-version
 
 # IDE
 .idea/
@@ -53,4 +54,11 @@ venv.bak/
 
 # Logs
 logs/
-*.log 
+*.log
+
+# Data folders
+papers/
+data/
+datasets/
+output/
+results/ 
